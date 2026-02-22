@@ -71,6 +71,47 @@ npm run dev
 
 ---
 
-## Preview
+## Features Breakdown
 
-A minimal stopwatch with a modern UI and smooth interactions.
+### 1. Start Button
+Starts the stopwatch and prevents duplicate intervals.
+
+### 2. Stop Button
+Stops the active timer safely.
+
+### 3. Reset Button
+Stops the timer and resets time to zero.
+
+---
+
+## UI Highlights
+
+- Centered layout
+- Gradient background
+- Card hover animation
+- Button hover scaling effect
+- Clean typography
+- Responsive design
+
+---
+
+## Possible Enhancements
+
+- Add HH:MM:SS format
+- Add Lap functionality
+- Add Dark mode
+- Add Sound effects
+- Store time in local storage
+- Add milliseconds precision
+
+---
+
+## Learning Outcome
+
+This project strengthens understanding of:
+
+- React Hooks
+- Side-effect management
+- Interval cleanup logic
+- Component-based architecture
+- Basic UI/UX improvement techniques
