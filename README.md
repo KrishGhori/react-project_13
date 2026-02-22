@@ -1,20 +1,76 @@
-<<<<<<< HEAD
-# React + Vite
+# React Stopwatch App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Stopwatch Application** built using React Hooks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Start timer
+- Stop timer
+- Reset timer
+- Prevents multiple intervals from running
+- Clean card-based UI
+- Gradient background design
+- Button hover and click animations
+- Responsive centered layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-project_13
->>>>>>> d3bea66d56313d14f3b3df47f547931eea39f91c
+- React
+- useState Hook
+- useRef Hook
+- CSS3 (Flexbox, Gradient, Animations)
+
+---
+
+## Project Structure
+
+```
+src/
+ ├── App.jsx
+ ├── App.css
+ └── main.jsx
+```
+
+---
+
+## How It Works
+
+- `useState` manages the timer value.
+- `useRef` stores the interval ID.
+- `setInterval` increments time every second.
+- `clearInterval` stops the timer safely.
+- Protection logic prevents multiple intervals from running simultaneously.
+
+---
+
+## Installation
+
+Install dependencies
+
+```
+npm install
+```
+Start development server
+
+```
+npm run dev
+```
+
+---
+
+## Future Improvements
+
+- Add minutes and hours format (HH:MM:SS)
+- Add lap time feature
+- Add dark/light mode toggle
+- Add sound effect on start/stop
+
+---
+
+## Preview
+
+A minimal stopwatch with a modern UI and smooth interactions.
